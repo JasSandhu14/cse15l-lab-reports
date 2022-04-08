@@ -10,9 +10,9 @@ Hello
 2. Two Hello
 3. Three Hello
 
-[Link] (https://jassandhu14.github.io/cse15l-lab-reports/)
+[Link](https://jassandhu14.github.io/cse15l-lab-reports/)
 
-![Image] (https://www.syfy.com/sites/syfy/files/2020/06/fortnite-logo.jpg)
+![Image](https://www.syfy.com/sites/syfy/files/2020/06/fortnite-logo.jpg)
 
 Hello is horizontal:
 ---
