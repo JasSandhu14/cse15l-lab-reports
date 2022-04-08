@@ -12,7 +12,7 @@ Hello
 
 [Link] (https://jassandhu14.github.io/cse15l-lab-reports/)
 
-![Image] (https://www.google.com/url?sa=i&url=https%3A%2F%2Flogos-world.net%2Ffortnite-logo%2F&psig=AOvVaw1uL812XpvOHK86eIzTA8o4&ust=1649539685124000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCLDgw6q0hfcCFQAAAAAdAAAAABAD)
+![Image] (https://www.syfy.com/sites/syfy/files/2020/06/fortnite-logo.jpg)
 
 Hello is horizontal:
 ---
