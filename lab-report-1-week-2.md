@@ -36,6 +36,7 @@ Do not worry if you get an error running some commands. This is expected as seen
 ![Image](commands.png)
 
 ## Moving Files with `scp`
+Another important command is `scp` which allows you to transfer files between your computer and the remote server.
 
 ## Setting an SSH Key
 
