@@ -1,1 +1,1 @@
-![Image](thestrongest.jpg)
+![Image](thestrongest.png)
