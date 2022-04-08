@@ -11,9 +11,9 @@ Hello
 3. Three Hello
 Hello is horizontal:
 ---
-'Inline Hello'
-'''
+`Inline Hello`
+```
 # Hello block
 print 'Hello'
 print 'Bye'
-'''
+```
