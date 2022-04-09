@@ -29,9 +29,7 @@ Now that you're connected to the remote server, there are multiple useful comman
 * `cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/`
 * `cat /home/linux/ieng6/cs15lsp22/public/hello.txt`
 
-Another important command is `Ctrl + D` which logs you out of the remote directory
-
-Do not worry if you get an error running some commands. This is expected as seen in the below image.
+Another important command is `Ctrl + D` which logs you out of the remote directory. Do not worry if you get an error running some commands. This is expected as seen in the below image.
 
 ![Image](commands.png)
 
@@ -46,9 +44,7 @@ Run the file using `javac` and `java` to ensure it runs properly. To copy the fi
 
 ![Image](scp.png)
 
-To test to see if it worked, type `ls` while in the remote directory and you should see your file listed.
-
-With the file being on the remote server, you can run it remotely. Try using `javac` and `java` to test it.
+To test to see if it worked, type `ls` while in the remote directory and you should see your file listed. With the file being on the remote server, you can run it remotely. Try using `javac` and `java` to test it.
 
 ## Setting an SSH Key
 Transferring files is kind of a hassle but we can make it easier by not having to type the password everytime. We can set up an ssh-keygen. Follow this line of code.
@@ -77,4 +73,13 @@ $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/autho
 After these steps, you should be able to connect to the remote server without having to type your password everytime.
 
 ## Optimizing Remote Running
-We can make running files on a remote server even more pleasant.
+We can make running files on a remote server even more pleasant. Here are some helpful tips to make running code easier.
+* You can run code on the remote server without having to log in by adding quotations around the command. For example, `ssh cs15lsp22zz@ieng6.ucsd.edu "ls"`.
+* You can add a semicolon after a command to run multiple commands. For example, `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`.
+* You can use the up arrow key to recall the last command in the terminal.
+
+With these tips you can edit your code, save it, transfer it to the remote server, and call it without having to log in to the server and in a few lines. 
+
+![Image](easier.png)
+
+After following all these steps, you should be able to log into the remote server and run many different commands on it. Enjoy!
