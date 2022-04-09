@@ -40,8 +40,41 @@ Another important command is `scp` which allows you to transfer files between yo
 
 First create a file on your computer and name it whatever you want. Just make sure the file name is easy to type. In the file, make it print anything you want.
 
-Run the file using `javac` and `java` to ensure it runs properly. To copy the file from your computer to the directory
+Run the file using `javac` and `java` to ensure it runs properly. To copy the file from your computer to the directory, type 
+
+`scp <file name>.java cs15lsp22zzz@ieng6.ucsd.edu:~/ `. Type your password and the file should be copied to the remote directory. 
+
+![Image](scp.png)
+
+To test to see if it worked, type `ls` while in the remote directory and you should see your file listed.
+
+With the file being on the remote server, you can run it remotely. Try using `javac` and `java` to test it.
 
 ## Setting an SSH Key
+Transferring files is kind of a hassle but we can make it easier by not having to type the password everytime. We can set up an ssh-keygen. Follow this line of code.
+
+```
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+```
+Make sure to leave the passphrase empty so you don't need a password everytime. You should see something like this.
+
+![Image](sixeyes.png)
+
+If you're on Windows, you must also type `ssh-keygen -t ed25519`. For the next step, we have to copy the public key to the remote server. We can do this with the following steps.
+```
+$ ssh cs15lsp22zz@ieng6.ucsd.edu
+<Enter Password>
+# now on server
+$ mkdir .ssh
+$ <logout>
+# back on client
+$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+```
+After these steps, you should be able to connect to the remote server without having to type your password everytime.
 
 ## Optimizing Remote Running
+We can make running files on a remote server even more pleasant.
