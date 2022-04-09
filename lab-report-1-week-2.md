@@ -1,3 +1,4 @@
+[Home](https://jassandhu14.github.io/cse15l-lab-reports/)
 # Lab Report 1
 ## Installing VScode
 Firstly, you want to install Visual Studio Code on your computer. You can do so with this [link](https://code.visualstudio.com). After following the instrucitons on the website, open up VScode. It should look like this.
