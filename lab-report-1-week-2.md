@@ -38,6 +38,10 @@ Do not worry if you get an error running some commands. This is expected as seen
 ## Moving Files with `scp`
 Another important command is `scp` which allows you to transfer files between your computer and the remote server.
 
+First create a file on your computer and name it whatever you want. Just make sure the file name is easy to type. In the file, make it print anything you want.
+
+Run the file using `javac` and `java` to ensure it runs properly. To copy the file from your computer to the directory
+
 ## Setting an SSH Key
 
 ## Optimizing Remote Running
