@@ -14,3 +14,5 @@
 ## Private Key
 ![private key](id_rsa.png)
 The private key is in id_rsa.
+## git commands
+![git command](gitcommit.png)
