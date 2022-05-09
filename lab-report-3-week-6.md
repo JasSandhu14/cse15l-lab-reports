@@ -16,3 +16,14 @@
 The private key is in id_rsa.
 ## git commands
 ![git command](gitcommit.png)
+## commit result
+[Link to commit](https://github.com/dfigueroag/markdown-parser/commit/1f7c0409dcfc95175a3bf08c499f3ea07b981759)
+
+# Copy whole directories with `scp -r`
+## Copying directory to ieng6
+![scp](scpmarkdown.png)
+## Log in and compile
+![compile](compile.png)
+The version of markdown-parse I was using is not the updated version we worked on during lab. I only had access to the un-updated version provided by the professor. The same goes for the next step.
+## Combining steps
+![combine](combocompile.png)
