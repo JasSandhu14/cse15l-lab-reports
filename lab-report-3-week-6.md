@@ -28,4 +28,4 @@ The private key is in id_rsa.
 ![compile](compile.png)
 The version of markdown-parse I was using is not the updated version we worked on during lab. I only had access to the un-updated version provided by the professor. The same goes for the next step. That is why there are errors when compiling. However, `javac` still runs as expected.
 ## Combining steps
-![combine](combocompile.png)                                           
+![combine](combocompile.png)
