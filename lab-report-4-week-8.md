@@ -1,7 +1,7 @@
 [Home](https://jassandhu14.github.io/cse15l-lab-reports/)
 
 # Repositories
-[My version of makrdown-parse](https://github.com/JasSandhu14/markdown-parser.git)
+[Our version of makrdown-parse](https://github.com/JasSandhu14/markdown-parser.git)
 
 [Version that we reviewed](https://github.com/astoriama/markdown-parser.git)
 
@@ -45,3 +45,13 @@ __Snippet 2__
 
 __Snippet 3__
 ![s2-result2](s3-result2.png)
+
+# Reflection
+## Snippet 1
+I believe that we can fix code that uses backticks similar to how we search for parentheses and brackets. However, in this case, if we detect a backtick we can skip over all the code until there is another backtick as that would be inlined. If we don't detect another backtick we can continue the search from the index after the first.
+
+## Snippet 2
+Like last time, I belive that we can include more if statements that would ignore parantheses, brackets, and escaped brackets. However, we might find difficulty for files that have many of these since we cannot code for every individual instance of a parenthesis, brackter, or escaped bracket.
+
+## Snippet 3
+I believe that we can solve this issue in a few lines of code. We can detect if there are spaces right after or before the parentheses or brackets. If the code detects spaces, then it will look for another instance of an open parenthesis or bracket.
