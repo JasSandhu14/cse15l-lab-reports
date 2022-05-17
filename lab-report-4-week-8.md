@@ -41,6 +41,7 @@ __Snippet 1__
 ![s1-result2](s1-result2.png)
 
 __Snippet 2__
+![s2-result2](s2-result2.png)
 
 __Snippet 3__
-![s2-result2](s2-result2.png)
+![s2-result2](s3-result2.png)
