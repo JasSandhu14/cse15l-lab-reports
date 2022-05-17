@@ -21,3 +21,24 @@ _This means that the links __a.com__, __a.com(())__, and __example.com__ are exp
 
 _This means that __https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule__ is expected._
 
+# Testing
+![testing](snippet-tests.png)
+
+Added the different snippet files as there own markdown files for the code to go through. The expected links I added individually as an array of strings according to the links we say prior.
+
+## Our implementation
+__Snippet 1__
+![s1-result](s1-result.png)
+
+__Snippet 2__
+![s2-result](s2-result.png)
+
+__Snippet 3__
+![s3-result](s3-result.png)
+
+## Their implementation
+__Snippet 1__
+
+__Snippet 2__
+
+__Snippet 3__
